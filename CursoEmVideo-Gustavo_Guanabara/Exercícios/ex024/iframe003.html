@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, illo ut. Quasi, expedita, dolorem quibusdam earum eos eum sapiente sequi iure necessitatibus distinctio laboriosam voluptate at ab aperiam ipsa. Repudiandae!</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus voluptatibus cum atque itaque tempora maiores! Quam repellendus voluptate et! Modi aliquam nihil, vero aperiam nisi iste cum eveniet. Voluptate, quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vitae eaque, omnis labore alias blanditiis doloremque velit laboriosam amet, laudantium natus repellendus ad recusandae? Nam laborum architecto illo commodi iusto!</p>
+
+    <iframe frameborder="1" id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, velit mollitia quos maxime dolorem ea saepe magnam non nisi, provident praesentium deleniti voluptas voluptates nemo delectus perspiciatis voluptatibus dignissimos! Totam?</p><img src='imagens/cursoemvideo-logo.png'>"><p>infelismente seu navegador não pe compatível com isso!</p></iframe> <!-- Tocou-se o "src" por "srcdoc" para por aquivo html -->
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, nisi voluptatem? Iusto sapiente saepe debitis aperiam, inventore doloribus vero laboriosam hic nobis cum sunt molestiae eaque quisquam voluptatibus distinctio. Dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae impedit doloremque, commodi tempore libero pariatur quaerat. Rerum eum amet doloremque cumque obcaecati optio architecto! Distinctio quas recusandae minima ipsam?</p>
+</body>
+</html>
